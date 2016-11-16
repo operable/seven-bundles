@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "haskell-echo"
+description: "Echo from Haskell"
+version: "0.1.0"
+docker:
+  image: "cogcmd/haskell-echo"
+  tag: "0.1.0"
+commands:
+  haskell-echo:
+    executable: "/root/echo.hs"
+    rules:
+      - "allow"

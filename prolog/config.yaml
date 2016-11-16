@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "prolog-echo"
+description: "Echo from Prolog"
+version: "0.1.0"
+docker:
+  image: "cogcmd/prolog-echo"
+  tag: "0.1.0"
+commands:
+  prolog-echo:
+    executable: "/root/echo.pl"
+    rules:
+      - "allow"

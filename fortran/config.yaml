@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "fortran-echo"
+description: "Echo from Fortran"
+version: "0.1.0"
+docker:
+  image: "cogcmd/fortran-echo"
+  tag: "0.1.0"
+commands:
+  fortran-echo:
+    executable: "/root/echo"
+    rules:
+      - "allow"

@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "clojure-echo"
+description: "Echo from Clojure"
+version: "0.1.0"
+docker:
+  image: "cogcmd/clojure-echo"
+  tag: "0.1.0"
+commands:
+  clojure-echo:
+    executable: "/root/echo.sh"
+    rules:
+      - "allow"

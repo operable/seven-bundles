@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "ruby-echo"
+description: "Echo from Ruby"
+version: "0.1.0"
+docker:
+  image: "cogcmd/ruby-echo"
+  tag: "0.1.0"
+commands:
+  ruby-echo:
+    executable: "/root/echo.rb"
+    rules:
+      - "allow"

@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "io-echo"
+description: "Echo from Io"
+version: "0.1.0"
+docker:
+  image: "cogcmd/io-echo"
+  tag: "0.1.0"
+commands:
+  io-echo:
+    executable: "/root/echo.io"
+    rules:
+      - "allow"

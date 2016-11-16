@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: "scala-echo"
+description: "Echo from Scala"
+version: "0.1.0"
+docker:
+  image: "cogcmd/scala-echo"
+  tag: "0.1.0"
+commands:
+  scala-echo:
+    executable: "/root/echo.sc"
+    rules:
+      - "allow"
